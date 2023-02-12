@@ -1,7 +1,8 @@
 import React from "react";
 import Edit from "..//img/edit.png";
 import Delete from "..//img/delete.png";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Menu from "../components/Menu";
 
 
 const Single = () => {
@@ -23,11 +24,11 @@ const Single = () => {
             </div>
             </div>
             <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptatum voluptate consectetur corrupti! Ratione, perspiciatis labore sed ea, corrupti dignissimos maiores quaerat numquam ab facilis reprehenderit ducimus ipsa animi voluptas.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odio tempora facilis quisquam doloribus est. Quod exercitationem dolorem, impedit fugit at dolore, quae rem reiciendis facere magnam ipsam temporibus ad?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit harum cumque laborum et ducimus minus sapiente asperiores dolorum voluptate laboriosam nobis mollitia vel voluptatibus aut amet molestias quod, hic temporibus.</p>
             </div>
-            <div className="menu">m</div>
+            <Menu/>
         </div>
-    )
-}
+    );
+};
 
 export default Single
