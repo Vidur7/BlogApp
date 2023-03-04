@@ -18,7 +18,6 @@ const Login = () => {
       const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-          await axios.post("auth/login", inputs);
           navigate("/");
         } catch (err) {
           setError(err.response.data);
